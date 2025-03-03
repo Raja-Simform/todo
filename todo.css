@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.body{
+  height: 100vh;
+  width: 100vw;
+}
+.input{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+#input-text{
+    height: 50px;
+    width: 500px;
+    padding: 20px;
+    
+}
+.button button{
+    height: 50px;
+    width: 100px;
+    
+}
+.button button:hover{
+    border: 1px solid blue;
+}
+.list{
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ul{
+    height: 600px;
+    width: 1000px;
+    border: 1px solid green;
+    display: flex;
+    overflow:auto;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.item{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    align-items: start;
+    margin: 20px;
+    
+}
+.item li{
+    height: 50px;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid green;
+}
+.edit,.delete{
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    border: 1px solid green;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.edit:hover,.delete:hover{
+    border: 1px solid blue;
+}
+
