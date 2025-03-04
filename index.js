@@ -43,12 +43,11 @@ function add() {
       this.textContent = "Edit";
     }
   }
-
-    
-
 }
-document.getElementById("input-text").addEventListener('keydown',function(event){
-   if(event.code=='Enter'){
-     add()
-   }
-})
+document
+  .getElementById("input-text")
+  .addEventListener("keydown", function (event) {
+    if (event.code == "Enter") {
+      add();
+    }
+  });
