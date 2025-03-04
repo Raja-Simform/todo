@@ -1,6 +1,6 @@
 function add() {
   let input = document.getElementById("input-text").value;
-  if (input === "") {
+  if (input === ""||input.trim().length===0) {
     alert("Please write the task");
     return;
   }
